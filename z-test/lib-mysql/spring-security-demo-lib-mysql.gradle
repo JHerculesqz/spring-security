@@ -1,0 +1,9 @@
+apply plugin: 'io.spring.convention.spring-module'
+
+dependencies {
+	management platform(project(":spring-security-dependencies"))
+	api project(':spring-security-crypto')
+	api project(':spring-security-demo-lib')
+
+	implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.1'
+}
