@@ -2,7 +2,7 @@ apply plugin: 'io.spring.convention.spring-module'
 
 dependencies {
 	management platform(project(":spring-security-dependencies"))
-	api project(':spring-security-demo-lib')
+	api project(':spring-security-demo-lib-mysql')
 
 	implementation 'org.springframework.boot:spring-boot-starter:2.7.7'
 	implementation 'org.springframework.boot:spring-boot-starter-web:2.7.7'

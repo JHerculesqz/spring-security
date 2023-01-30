@@ -5,6 +5,5 @@ dependencies {
 
 	api project(':spring-security-web')
 	api project(':spring-security-config')
-	api project(':spring-security-demo-lib-mysql')
 }
 
